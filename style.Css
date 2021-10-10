@@ -1,0 +1,96 @@
+body{
+    font-family: Georgia;
+    color: rgb(7, 7, 7);
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+h2{
+    font-size: 2.5rem;
+}
+p{
+    margin-bottom: 1.6em;
+
+}
+.container{
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header{
+    background: rgb(95, 111, 179);
+    color:rgb(7, 7, 7);
+    padding: 2rem 0;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+
+aside {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(3, 3, 3);
+    padding-top: 2rem;
+    margin-top: 7rem;
+    float: right;
+    border: 5px solid rgb(5, 5, 5);
+    width: 20%;
+    height: 800px;
+    
+}
+
+.a{
+    width: 200px;
+    height: 140px;
+}
+.b{
+    width: 500px;
+    height: 200px;
+    margin-left: 1rem;
+}
+.c{
+    width: 500px;
+    height: 300px;
+   margin-left: 2rem;
+}
+.bi{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 39, 39);
+    font-size: 2.5rem;
+    line-height: 200%;
+    margin-bottom: 50rem;
+    text-align: left;
+   
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li a{
+    display: block;
+    padding: 3.5rem 1rem;
+    text-decoration: none;
+    transition: all 0.4s linear;
+    font-size: 3rem;
+    color: rgb(28, 10, 126);
+}
+ul li a:hover{
+    background: #4a4a4a;
+}
+
+.footer{
+    background: #787a7e;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
